@@ -546,8 +546,6 @@ footer .social p {
 }
 
 footer .social img {
-    width: 40px;
-    height: 40px;
     transition: transform 0.3s, filter 0.3s;
 }
 
@@ -556,8 +554,13 @@ footer .social img:hover {
     filter: brightness(1.3);
 }
 
-.fb-img {
-    margin-bottom: 5px;
+#IG-img {
+    width: 40px;
+    height: 40px;
+}
+#YT-img {
+    width: 39px;
+    height: 39px;
 }
 
 footer p {
@@ -1065,8 +1068,6 @@ footer .footHead2 {
     }
     
     footer .social img {
-        width: 30px;
-        height: 30px;
         transition: transform 0.3s, filter 0.3s;
     }
     
@@ -1075,8 +1076,9 @@ footer .footHead2 {
         filter: brightness(1.3);
     }
 
-    .fb-img {
-        margin-bottom: 4px;
+    #IG-img, #YT-img {
+        width: 25px;
+        height: 25px;
     }
     
     footer .footHead1 {
